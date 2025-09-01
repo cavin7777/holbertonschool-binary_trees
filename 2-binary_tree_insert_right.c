@@ -18,6 +18,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 
 	/* Use same code task 0 not the function to create a new node right */
 	new_node_right = malloc(sizeof(binary_tree_t));
+
 	if (new_node_right == NULL)
 		return (NULL);
 
